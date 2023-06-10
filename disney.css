@@ -209,22 +209,22 @@ section{
   transform: scale(1.1);
 }
 
-.favourite .icon-box{
-  width: 34px;
-  height: 34px;
-  border-radius: 20px;
-  font-size: 24px;
-  display: flex;
-}
-
 #favourites{
-  background:url('IMG_1294.JPG');
+  background: url('IMG_1294.JPG');
   min-height: 100vh;
   background-size:cover;
   background-position: center;
   background-attachment:fixed;
   display: flex;
   align-items: center;
+}
+
+.favourite .icon-box{
+  width: 34px;
+  height: 34px;
+  border-radius: 20px;
+  font-size: 24px;
+  display: flex;
 }
 
 #favourites h5{
