@@ -5,7 +5,7 @@ body{
   font-weight: 400;
 }
 h1{
-  font-family: url('Pacifico-Regular.ttf');
+  font-face: url('Pacifico-Regular.ttf');
   font-weight: 700;
   letter-spacing: 1px;
   color: #B54767;
