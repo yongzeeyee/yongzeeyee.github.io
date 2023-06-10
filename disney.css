@@ -5,7 +5,7 @@ body{
   font-weight: 400;
 }
 h1{
-  font-family: 'Pacifico-Regular.ttf';
+  font-family: Pacifico;
   font-weight: 700;
   letter-spacing: 1px;
   color: #B54767;
@@ -46,14 +46,14 @@ section{
 }
 
 .logo-text{
-  font-family:url('GongFanSuanNaiBuDingTi-2.ttf');
+  font-family:龚帆酸奶布丁体;
   font-size: 22px;
   text-transform: uppercase;
   color: pink;
 }
 
 .navbar .nav-link{
-  font-family: url('GongFanSuanNaiBuDingTi-2.ttf');
+  font-family: 龚帆酸奶布丁体;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -75,11 +75,11 @@ section{
 
 #home h1{
   font-weight: 800;
-  font-family: url('Pacifico-Regular.ttf');
+  font-family: Pacifico;
 }
 
 #home p{
-  font-family: url('Caveat-VariableFont_wght.ttf');
+  font-family: Caveat;
   font-size: 40px;
   max-width: 550px;
   margin: 18px auto;
@@ -133,13 +133,13 @@ section{
   text-align: center;
 }
 #introduction h4{
-  font-family: url('Pacifico-Regular.ttf');
+  font-family: Pacifico;
   font-size: 30px;
   text-align: center;
 }
 
 #introduction p{
-  font-family: url('Caveat-VariableFont_wght.ttf');
+  font-family: Caveat;
   font-size: 25px;
   color: #B54767;
   text-align: center;
