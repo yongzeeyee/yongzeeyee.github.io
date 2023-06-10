@@ -64,7 +64,7 @@ section{
 }
 
 #home{
-  background: url('img/mountain.pic.jpg');
+  background: url('mountain.pic.jpg');
   min-height: 100vh;
   background-size:cover;
   background-position: center;
@@ -104,7 +104,7 @@ section{
 }
 
 #introduction{
-  background: url('img/IMG_1297.jpg');
+  background: url('IMG_1297.jpg');
   min-height: 100vh;
   background-size:cover;
   background-position: center;
@@ -218,7 +218,7 @@ section{
 }
 
 #favourites{
-  background:url('img/IMG_1294.JPG');
+  background:url('IMG_1294.JPG');
   min-height: 100vh;
   background-size:cover;
   background-position: center;
