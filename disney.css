@@ -5,7 +5,8 @@ body{
   font-weight: 400;
 }
 h1{
-  font-family: Pacifico;
+  font-family: 'Pacifico';
+  src: url('Pacifico-Regular.ttf');
   font-weight: 700;
   letter-spacing: 1px;
   color: #B54767;
