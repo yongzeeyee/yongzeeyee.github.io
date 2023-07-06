@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+
+	<!-- title -->
+	<title>Single News</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- mean menu css -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+
+	<!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!--PreLoader Ends-->
+
+	<!-- header -->
+	<div class="top-header-area" id="sticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 text-center">
+					<div class="main-menu-wrap">
+						<!-- logo -->
+						<div class="site-logo">
+							<a href="index.html">
+								<img src="assets/img/logo.png" alt="">
+							</a>
+						</div>
+						<!-- logo -->
+
+						<!-- menu start -->
+						<nav class="main-menu">
+							<ul>
+								<li><a href="index.html">Home</a>
+								</li>
+								<li><a href="about.html">About Us</a></li>
+								<li class="current-list-item"><a href="news.html">Info</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="shop.html">Shop</a>
+									<ul class="sub-menu">
+										<li><a href="shop.html">Customize</a></li>
+										<li><a href="ready-made.html">Ready-Made</a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="header-icons">
+										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+									</div>
+								</li>
+							</ul>
+						</nav>
+						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+						<div class="mobile-menu"></div>
+						<!-- menu end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<!-- search area -->
+	<div class="search-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<div class="search-bar">
+						<div class="search-bar-tablecell">
+							<h3>THE BOSS</h3>
+							<img src="assets/img/boss.jpg" style="height:500px; width:750px">
+							<br>
+							<br>
+							<h5 style="color:#fff">We will try our best to serve you better!</h5>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end search area -->
+
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<p>Read the Details</p>
+						<h1>Pin Boutique Sales Report</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
+
+	<!-- single article section -->
+	<div class="mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="single-article-section">
+						<div class="single-article-text">
+							<div class="single-artcile-bg3"></div>
+							<p class="blog-meta">
+								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="date"><i class="fas fa-calendar"></i> 7 July, 2023</span>
+							</p>
+							<h2>Pin Boutique Sales Report</h2>
+							<p>From the sales data in March, we can observe the following:</p>
+							<p>Kurung Moden had the highest quantity sold with 123 units, indicating its popularity among customers. Kurung ranked second with 72 units sold, suggesting a significant demand for this traditional wear. Kebaya and Dress had moderate sales with 60 and 56 units sold, respectively. Blouse had the lowest sales, with only 20 units sold.</p>
+							<br>
+
+							<!--salesdoughnut-->
+							<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+							<br>
+							<br>
+
+							<p>Analyzing the boutique's performance over the first half of 2023, we can observe the following trends:</p>
+							<p>The number of customers steadily increased from January to March, indicating a growing customer base and potentially successful marketing strategies during that period.</p>
+							<p>March experienced the highest number of customers, reaching 544. This could be due to seasonal factors, promotional activities, or the popularity of certain products during that time.</p>
+							<p>After March, there was a slight decrease in customer numbers in April and May, followed by a moderate increase in June. Overall, the data suggests that Pin Boutique experienced significant sales in March, particularly with the popularity of Kurung Moden. Additionally, the boutique's performance showed a positive trend in terms of customer numbers, with March being the most successful month in terms of attracting customers.</p>
+
+							<!--customers-->
+							<div id="curve_chart" style="width: 900px; height: 500px"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end single article section -->
+
+	<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">About us</h2>
+						<p>From a humble home tailoring service to an online store making custom-made batik pieces for women, men and children. With over 30 years of tailoring experience, here you can find our one-of-a-kind Batik Collection with ready-made and custom-made modern batik designs.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box get-in-touch">
+						<h2 class="widget-title">Get in Touch</h2>
+						<ul>
+							<li>83, Kompleks Sultan Abdul Hamid, Jalan Pegawai, 05050 Alor Setar, Kedah, Malaysia</li>
+							<li>pinbutik@gmail.com</li>
+							<li>+60 4-771 6118</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box pages">
+						<h2 class="widget-title">Pages</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="shop.html">Shop</a></li>
+							<li><a href="news.html">Info</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box subscribe">
+						<h2 class="widget-title">Subscribe</h2>
+						<p>Subscribe to our mailing list to get the latest updates.</p>
+						<form action="index.html">
+							<input type="email" placeholder="Email">
+							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Pin Boutique</a>,  All Rights Reserved.</p>
+					<p>Template by <a href="https://imransdesign.com/">Imran Hossain</a></p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="https://www.facebook.com/pinboutiquestarparade/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://wa.me/+60124146118" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end copyright -->
+
+	<!-- jquery -->
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="assets/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- waypoints -->
+	<script src="assets/js/waypoints.js"></script>
+	<!-- owl carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="assets/js/sticker.js"></script>
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+	<!--salesdoughnut-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+	<script>
+	var xValues = ["Kurung", "Kurung Moden", "Kebaya", "Dress", "Blouse"];
+	var yValues = [72, 123, 60, 56, 20];
+	var barColors = [
+	  "#89E2FF",
+	  "#FF8989",
+	  "#FFC289",
+	  "#FFF189",
+	  "#92FF89"
+	];
+
+	new Chart("myChart", {
+	  type: "doughnut",
+	  data: {
+	    labels: xValues,
+	    datasets: [{
+	      backgroundColor: barColors,
+	      data: yValues
+	    }]
+	  },
+	  options: {
+	    title: {
+	      display: true,
+	      text: "Sales of Pin Boutique in March"
+	    }
+	  }
+	});
+	</script>
+
+	<!--customers-->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript">
+		google.charts.load('current', {'packages':['corechart']});
+		google.charts.setOnLoadCallback(drawChart);
+
+		function drawChart() {
+			var data = google.visualization.arrayToDataTable([
+				['Month', 'Number of Customers entered our shop'],
+				['January',  154],
+				['February',  286],
+				['March',  544],
+				['April',  233],
+				['May',  198],
+				['June',  372]
+			]);
+
+			var options = {
+				title: 'Boutique Performance in 2023 (January - June)',
+				curveType: 'function',
+				legend: { position: 'bottom' }
+			};
+
+			var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+			chart.draw(data, options);
+		}
+	</script>
+
+</body>
+</html>
